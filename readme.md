@@ -4,11 +4,13 @@
 
 ## Requirements
 Before using this script, you will need to install the following programs:
-- aircrack-ng
-- iwconfig
+- airodump-ng
+- airmon-ng
+- ifconfig
 - macchanger
 - xterm
 - bash
+
 
 Please note that this script is designed to interfere with Wi-Fi signals and can be potentially harmful. It should only be used in controlled environments and with the appropriate permissions and authorizations.
 
