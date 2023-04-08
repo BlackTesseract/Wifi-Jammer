@@ -224,7 +224,7 @@ def main():
     confirm = True
     
     while confirm:
-        sure = input("Are you sure to jamm the selected target? (y/n)>")
+        sure = input("Are you sure to jam the selected target? (y/n)>")
 
         if sure == "y":
             print("\nProceeding..\n\n")
