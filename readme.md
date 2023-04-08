@@ -26,6 +26,6 @@ sudo python3 jammer.py
 
 
 
-After running the script, you will be prompted to select the target network and channel to jam. The script will then start the jamming process, which will continue until the user manually stops the script.
+After running the script, you will be prompted to select the target network to jam. The script will then start the jamming process, which will continue until the user manually stops the script.
 
 Once again, please use this script responsibly and only in controlled environments with the appropriate permissions and authorizations.
