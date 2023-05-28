@@ -4,6 +4,8 @@ import os
 import signal
 import pandas
 
+from automaticInstallation import install_requirements
+
 
 
 
@@ -52,7 +54,9 @@ def main():
         subprocess.call('which xterm', shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         subprocess.call('which bash', shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     except:
-        exit("Please install all required programs (airodump-ng, airmon-ng, ifconfig, macchanger, xterm, bash)")
+        print('Some requirements are not met. Continuing with automatic installation...\n\n')
+        install_requirements()
+        exit("Please run the script again.")
 
     print('All requirements are met.\n\n')
 

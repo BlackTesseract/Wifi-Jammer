@@ -1,0 +1,6 @@
+airodump-ng
+airmon-ng
+ifconfig
+macchanger
+xterm
+bash
