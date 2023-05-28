@@ -1,4 +1,4 @@
-# This installation script is based of LInstall by @Heizkoerper(https://github.com/Heizkoerper/LInstall)
+# This installation script is based of LInstall by @Heizkoerper (https://github.com/Heizkoerper/LInstall)
 
 import os
 
@@ -73,7 +73,7 @@ def get_requirements():
 
 
 
-def main():
+def install_requirements():
 
     distro = get_distro()
     package_manager = get_package_manager(distro)
@@ -98,8 +98,3 @@ def main():
 
     # Install the requirements
     os.system(f"{package_manager}{get_requirements()}")
-
-
-
-if __name__ == "__main__":
-    main()
